@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    background-image: url(images/banner.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    opacity: 1;
+    min-height: 2.75rem;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo,
+.title{
+    color: skyblue;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.homelink,
+.productlink,
+.locationlink,
+.contactlink,
+.aboutuslink{
+    text-decoration: none;
+    color: skyblue;
+    font-size: 25px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+.homelink,
+.productlink:hover,
+.locationlink:hover,
+.contactlink:hover,
+.aboutuslink:hover{
+    background-color: gray;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin: 1rem;
+}
+.bottombar{
+    position: sticky;
+    top: 100%;
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    margin: 0.5rem;
+}
